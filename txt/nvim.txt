@@ -1,0 +1,1 @@
+use :! to run shell commands (e.g. ":! ./as.sh")
