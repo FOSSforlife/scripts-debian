@@ -33,9 +33,9 @@ for zip_file in *.zip; do
         # Unzip the file to temp directory
         unzip -q "$zip_file" -d "$temp_dir"
         
-        # Move the contents to final destination
-        mv "$temp_dir"/* "$artist_dir/$album"
-        
+	# Move the contents to final destination
+	mv "$temp_dir"/* "$artist_dir/$album"
+
         # Clean up temp directory
         rm -rf "$temp_dir"
 
